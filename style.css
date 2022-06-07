@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+    padding: 1rem;
+  
+    background-color: #8c0032;
+    box-shadow: 0 4px 8px #00000024;
+  }
+  
+  header h1 {
+    font-size: 2.25rem;
+    color: #fff;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 0.5rem;
+  
+    font-size: 1rem;
+  }
+  
+  main > section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .wrapper {
+    width: 60ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .author-quotes .quote {
+    background-color: #c8e6c9;
+  }
+  
+  .musician-quotes .quote:nth-child(even) {
+    background-color: #bbdefb;
+  }
+  
+  .musician-quotes .quote:nth-child(odd) {
+    background-color: #e1bee7;
+  }
+  
+  .quote {
+    margin-top: 1rem;
+    padding: 1.5rem;
+  
+    box-shadow: 0 3px 6px #00000012;
+    border-radius: 0.25rem;
+  }
+  
+  .quote:hover {
+    box-shadow: 0 3px 12px #00000024;
+  }
+  
+  .quote--text {
+    text-align: center;
+  
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  
+  .quote--author {
+    margin-bottom: 0;
+    text-align: right;
+  
+    font-variant: small-caps;
+    font-size: 0.725rem;
+    font-family: serif;
+    font-weight: bold;
+  }
+  
